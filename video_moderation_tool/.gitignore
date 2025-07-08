@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+VENV/
+*.egg-info/
+.ipynb_checkpoints
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+*.egg
+
+# Configuration files
+config.ini
+settings.local.yaml
+
+# Secrets - ensure these are not committed
+secrets.json
+*.pem
+*.key
+credentials.*
+
+# Logs
+*.log
+
+# Data - if you have large data files that shouldn't be in git
+# data/large_video_files/
+# data/sensitive_data/
+
+# Gemini API specific (if any, e.g., local cache)
+.gemini_cache/

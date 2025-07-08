@@ -1,0 +1,2 @@
+# This file ensures the data directory is tracked by git even if it's empty initially.
+# This directory can be used to store sample video/audio files or community guideline documents.
